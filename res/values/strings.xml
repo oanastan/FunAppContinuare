@@ -5,8 +5,8 @@
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
     <string name="title_fix">Title</string>
-    <string name="username_fix">Username</string>
-    <string name="password_fix">Password</string>
+    <string name="username_fix">Username: </string>
+    <string name="password_fix">Password: </string>
     <string name="login_fix">LOGIN</string>
     <string name="change_my_password_fix">change my password</string>
     <string name="title_activity_next">NextActivity</string>
@@ -46,8 +46,8 @@
     <string name="login">LogIn</string>
     <string name="todo">TODO</string>
     <string name="old_password">Old Password</string>
-     <string name="change_password">Change password</string>
-     <string name="o_password">Old Password:</string>
+    <string name="change_password">Change password</string>
+    <string name="o_password">Old Password:</string>
     <string name="title_activity_login">Log In</string>
     <string name="title_activity_register">Register</string>
     <string name="title_activity_homepage">Homepage</string>
@@ -65,5 +65,8 @@
     <string name="image">image</string>
     <string name="saveprofile">Save profile</string>
     <string name="selectphoto">Select photo</string>
+    <string name="title_activity_weather">WeatherActivity</string>
+    <string name="weather">Weather</string>
+    <string name="gettingData" Data...="" Getting=""></string>
 
 </resources>

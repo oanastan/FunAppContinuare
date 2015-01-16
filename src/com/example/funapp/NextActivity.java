@@ -2,7 +2,6 @@ package com.example.funapp;
 
 import android.app.Activity;
 import android.content.Intent;
-
 import android.graphics.Color;
 import android.os.Bundle;
 import android.view.View;
@@ -15,7 +14,7 @@ public class NextActivity extends Activity {
 
 	RelativeLayout mainRl;
 	Button changeBg;
-	Button ceva;	
+	Button ceva, btnWeather;
 	ImageView image;
 
 	@Override
@@ -33,34 +32,43 @@ public class NextActivity extends Activity {
 
 			}
 		});
-		
+
 		addListenerOnButton();
-		
+
+		btnWeather = (Button) findViewById(R.id.weatherBtn);
+		btnWeather.setOnClickListener(new OnClickListener() {
+
+			@Override
+			public void onClick(View v) {
+				startActivity(new Intent(NextActivity.this,
+						WeatherActivity.class));
+
+			}
+		});
 	}
-	
-	public void logout(View view)
-	{
+
+	public void logout(View view) {
 		Intent i = new Intent(this, MainActivity.class);
-  		startActivity(i);
-		
+		startActivity(i);
+		finish();
+
 	}
 
 	private void addListenerOnButton() {
 		// TODO Auto-generated method stub
-		
+
 		image = (ImageView) findViewById(R.id.img);
 		ImageView image1 = (ImageView) findViewById(R.id.img);
 		ceva = (Button) findViewById(R.id.ceva);
-		ceva.setOnClickListener(new OnClickListener(){
-			
+		ceva.setOnClickListener(new OnClickListener() {
+
 			public void onClick(View arg0) {
-				
+
 				image.setImageResource(R.drawable.pets_launcher);
-				
-				}
-			
+
+			}
+
 		});
 
 	}
 }
-	

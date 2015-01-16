@@ -1,0 +1,6 @@
+Aceasta este a doua versiune a proiectului final de pe Github. Am salvat proiectul de acolo si 
+am observat ca nu ne merge baza de date si vremea. Le-am rezolvat si functioneaza tot. Multumim!
+Stan Alexandra Oana
+Dragusin Luiza
+Nistor Vladut
+1232E

@@ -12,16 +12,17 @@
         android:targetSdkVersion="21" />
 
     <application
+        android:name=".MainApp"
         android:allowBackup="true"
         android:icon="@drawable/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name="com.example.funapp.NextActivity"
+            android:name=".NextActivity"
             android:label="@string/title_activity_next" >
         </activity>
         <activity
-            android:name="com.example.funapp.MainActivity"
+            android:name=".MainActivity"
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -29,14 +30,17 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        
         <activity
-            android:name="com.example.funapp.RegisterActivity"
+            android:name=".RegisterActivity"
             android:label="@string/title_activity_register" >
         </activity>
         <activity
-            android:name="com.example.funapp.WelcomeActivity"
+            android:name=".WelcomeActivity"
             android:label="@string/title_welcome" >
+        </activity>
+        <activity
+            android:name=".WeatherActivity"
+            android:label="@string/title_activity_weather" >
         </activity>
     </application>
 
